@@ -1,0 +1,593 @@
+CRITICAL - 2023-05-11 01:27:39 --> Invalid file: "layouts/admin/dashboard/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/dashboard/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/dashboard/index', [], true)
+ 3 APPPATH\Controllers\Product.php(42): view('layouts/admin/dashboard/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 01:52:33 --> Invalid file: "layouts/admin/dashboard/dashboar/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/dashboard/dashboar/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/dashboard/dashboar/index', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(16): view('layouts/admin/dashboard/dashboar/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 01:56:28 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 01:56:34 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('index')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 01:56:36 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 01:56:38 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('index')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 01:56:53 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('index')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 01:56:56 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 01:56:58 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('product', 'index')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 01:59:13 --> Invalid file: "dashboard/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/dashboard/product/new', [], true)
+ 4 APPPATH\Controllers\Product.php(62): view('layouts/admin/dashboard/product/new')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->new()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 01:59:21 --> Invalid file: "dashboard/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/dashboard/product/new', [], true)
+ 4 APPPATH\Controllers\Product.php(62): view('layouts/admin/dashboard/product/new')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->new()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:01:36 --> Invalid file: "/dashboard/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/dashboard/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('/dashboard/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/dashboard/product/new', [], true)
+ 4 APPPATH\Controllers\Product.php(62): view('layouts/admin/dashboard/product/new')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->new()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:01:43 --> Invalid file: "/dashboard/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/dashboard/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('/dashboard/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/dashboard/product/new', [], true)
+ 4 APPPATH\Controllers\Product.php(62): view('layouts/admin/dashboard/product/new')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->new()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:03:00 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:03:25 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:03:31 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('product', 'new')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:03:35 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:03:44 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('product', 'new')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:03:52 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:03:55 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('product', 'index')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:03:58 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:04:15 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:04:20 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:04:22 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('product', 'new')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:04:24 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:22:51 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:23:14 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('product', 'index')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:31:20 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:34:15 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:36:42 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:37:09 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:37:20 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('vendor', 'jquery', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:37:41 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('product', 'index')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 02:37:55 --> Undefined variable $payload
+in APPPATH\Controllers\Product.php on line 52.
+ 1 APPPATH\Controllers\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payload', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Controllers\\Product.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('index')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:06:50 --> Invalid file: "layouts/admin/dashboarrd/product.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/dashboarrd/product.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/dashboarrd/product', [], true)
+ 3 APPPATH\Controllers\Product.php(52): view('layouts/admin/dashboarrd/product')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('index')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:09:15 --> Invalid file: "layouts/admin/dashboard/product.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/dashboard/product.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/dashboard/product', [], true)
+ 3 APPPATH\Controllers\Product.php(52): view('layouts/admin/dashboard/product')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('index')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:11:48 --> Undefined variable $products
+in APPPATH\Views\layouts\admin\dashboard\product\index.php on line 24.
+ 1 APPPATH\Views\layouts\admin\dashboard\product\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\dashboard\\product\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\dashboard\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/dashboard/product/index', [], true)
+ 5 APPPATH\Controllers\Product.php(52): view('layouts/admin/dashboard/product/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->show('index')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:38:31 --> Undefined variable $products
+in APPPATH\Views\layouts\admin\employeesection\viewallemployee\viewallemployee\index.php on line 23.
+ 1 APPPATH\Views\layouts\admin\employeesection\viewallemployee\viewallemployee\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\employeesection\\viewallemployee\\viewallemployee\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\employeesection\\viewallemployee\\viewallemployee\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/employeesection/viewallemployee/viewallemployee/index', [], true)
+ 5 APPPATH\Controllers\ViewAllEmployee.php(16): view('layouts/admin/employeesection/viewallemployee/viewallemployee/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ViewAllEmployee->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewAllEmployee))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:38:34 --> Undefined variable $products
+in APPPATH\Views\layouts\admin\employeesection\viewallemployee\viewallemployee\index.php on line 23.
+ 1 APPPATH\Views\layouts\admin\employeesection\viewallemployee\viewallemployee\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\employeesection\\viewallemployee\\viewallemployee\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\employeesection\\viewallemployee\\viewallemployee\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/employeesection/viewallemployee/viewallemployee/index', [], true)
+ 5 APPPATH\Controllers\ViewAllEmployee.php(16): view('layouts/admin/employeesection/viewallemployee/viewallemployee/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ViewAllEmployee->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewAllEmployee))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:39:00 --> Undefined variable $products
+in APPPATH\Views\layouts\admin\employeesection\viewallemployee\viewallemployee\index.php on line 23.
+ 1 APPPATH\Views\layouts\admin\employeesection\viewallemployee\viewallemployee\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\employeesection\\viewallemployee\\viewallemployee\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\employeesection\\viewallemployee\\viewallemployee\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/employeesection/viewallemployee/viewallemployee/index', [], true)
+ 5 APPPATH\Controllers\ViewAllEmployee.php(16): view('layouts/admin/employeesection/viewallemployee/viewallemployee/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ViewAllEmployee->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewAllEmployee))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:39:06 --> Undefined variable $products
+in APPPATH\Views\layouts\admin\employeesection\viewallemployee\viewallemployee\index.php on line 23.
+ 1 APPPATH\Views\layouts\admin\employeesection\viewallemployee\viewallemployee\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\employeesection\\viewallemployee\\viewallemployee\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\employeesection\\viewallemployee\\viewallemployee\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/employeesection/viewallemployee/viewallemployee/index', [], true)
+ 5 APPPATH\Controllers\ViewAllEmployee.php(16): view('layouts/admin/employeesection/viewallemployee/viewallemployee/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ViewAllEmployee->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewAllEmployee))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:42:08 --> Undefined variable $pager
+in APPPATH\Views\layouts\admin\employeesection\viewallemployee\viewallemployee\index.php on line 28.
+ 1 APPPATH\Views\layouts\admin\employeesection\viewallemployee\viewallemployee\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\employeesection\\viewallemployee\\viewallemployee\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\employeesection\\viewallemployee\\viewallemployee\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/employeesection/viewallemployee/viewallemployee/index', [], true)
+ 5 APPPATH\Controllers\ViewAllEmployee.php(16): view('layouts/admin/employeesection/viewallemployee/viewallemployee/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ViewAllEmployee->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewAllEmployee))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:42:10 --> Undefined variable $pager
+in APPPATH\Views\layouts\admin\employeesection\viewallemployee\viewallemployee\index.php on line 28.
+ 1 APPPATH\Views\layouts\admin\employeesection\viewallemployee\viewallemployee\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\employeesection\\viewallemployee\\viewallemployee\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\employeesection\\viewallemployee\\viewallemployee\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/employeesection/viewallemployee/viewallemployee/index', [], true)
+ 5 APPPATH\Controllers\ViewAllEmployee.php(16): view('layouts/admin/employeesection/viewallemployee/viewallemployee/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ViewAllEmployee->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewAllEmployee))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:42:19 --> Undefined variable $pager
+in APPPATH\Views\layouts\admin\employeesection\viewallemployee\viewallemployee\index.php on line 28.
+ 1 APPPATH\Views\layouts\admin\employeesection\viewallemployee\viewallemployee\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\employeesection\\viewallemployee\\viewallemployee\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\employeesection\\viewallemployee\\viewallemployee\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/employeesection/viewallemployee/viewallemployee/index', [], true)
+ 5 APPPATH\Controllers\ViewAllEmployee.php(16): view('layouts/admin/employeesection/viewallemployee/viewallemployee/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ViewAllEmployee->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewAllEmployee))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:55:21 --> Invalid file: "layouts/admin/layouts/admin/todotasks/createtodotasks/ccreatetodotasks/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/layouts/admin/todotasks/createtodotasks/ccreatetodotasks/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/layouts/admin/todotasks/createtodotasks/ccreatetodotasks/index', [], true)
+ 3 APPPATH\Controllers\CreateToDoTasks.php(16): view('layouts/admin/layouts/admin/todotasks/createtodotasks/ccreatetodotasks/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CreateToDoTasks->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CreateToDoTasks))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:56:06 --> Invalid file: "layouts/admin/layouts/admin/todotasks/createtodotasks/createtodotasks/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/layouts/admin/todotasks/createtodotasks/createtodotasks/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/layouts/admin/todotasks/createtodotasks/createtodotasks/index', [], true)
+ 3 APPPATH\Controllers\CreateToDoTasks.php(16): view('layouts/admin/layouts/admin/todotasks/createtodotasks/createtodotasks/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CreateToDoTasks->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CreateToDoTasks))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:56:10 --> Invalid file: "layouts/admin/layouts/admin/todotasks/createtodotasks/createtodotasks/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/layouts/admin/todotasks/createtodotasks/createtodotasks/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/layouts/admin/todotasks/createtodotasks/createtodotasks/index', [], true)
+ 3 APPPATH\Controllers\CreateToDoTasks.php(16): view('layouts/admin/layouts/admin/todotasks/createtodotasks/createtodotasks/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CreateToDoTasks->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CreateToDoTasks))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:56:36 --> Invalid file: "layouts/admin/layouts/admin/todotasks/createtodotasks/createtodotasks/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/layouts/admin/todotasks/createtodotasks/createtodotasks/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/layouts/admin/todotasks/createtodotasks/createtodotasks/index', [], true)
+ 3 APPPATH\Controllers\CreateToDoTasks.php(16): view('layouts/admin/layouts/admin/todotasks/createtodotasks/createtodotasks/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CreateToDoTasks->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CreateToDoTasks))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:57:17 --> Invalid file: "layouts/admin/todotasks/createtodotasks/createtodotasks/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/todotasks/createtodotasks/createtodotasks/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/todotasks/createtodotasks/createtodotasks/index', [], true)
+ 3 APPPATH\Controllers\CreateToDoTasks.php(16): view('layouts/admin/todotasks/createtodotasks/createtodotasks/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CreateToDoTasks->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CreateToDoTasks))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:57:18 --> Invalid file: "layouts/admin/todotasks/createtodotasks/createtodotasks/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/todotasks/createtodotasks/createtodotasks/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/todotasks/createtodotasks/createtodotasks/index', [], true)
+ 3 APPPATH\Controllers\CreateToDoTasks.php(16): view('layouts/admin/todotasks/createtodotasks/createtodotasks/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CreateToDoTasks->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CreateToDoTasks))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:57:59 --> Invalid file: "layouts/admin/todotasks/createtodotasks/ccreatetodotasks/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/todotasks/createtodotasks/ccreatetodotasks/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/admin/todotasks/createtodotasks/ccreatetodotasks/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/createtodotasks/index', [], true)
+ 4 APPPATH\Controllers\CreateToDoTasks.php(16): view('layouts/admin/todotask/createtodotasks/createtodotasks/index')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CreateToDoTasks->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CreateToDoTasks))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:58:00 --> Invalid file: "layouts/admin/todotasks/createtodotasks/ccreatetodotasks/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/todotasks/createtodotasks/ccreatetodotasks/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/admin/todotasks/createtodotasks/ccreatetodotasks/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/createtodotasks/index', [], true)
+ 4 APPPATH\Controllers\CreateToDoTasks.php(16): view('layouts/admin/todotask/createtodotasks/createtodotasks/index')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CreateToDoTasks->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CreateToDoTasks))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:58:57 --> Invalid file: "layouts/admin/todotask/createtodotasks/ccreatetodotasks/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/todotask/createtodotasks/ccreatetodotasks/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/ccreatetodotasks/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/createtodotasks/index', [], true)
+ 4 APPPATH\Controllers\CreateToDoTasks.php(16): view('layouts/admin/todotask/createtodotasks/createtodotasks/index')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CreateToDoTasks->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CreateToDoTasks))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 03:59:37 --> Invalid file: "layouts/admin/todotask/createtodotasks/createtodotasks/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/todotask/createtodotasks/createtodotasks/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/createtodotasks/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/createtodotasks/index', [], true)
+ 4 APPPATH\Controllers\CreateToDoTasks.php(16): view('layouts/admin/todotask/createtodotasks/createtodotasks/index')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CreateToDoTasks->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CreateToDoTasks))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 04:02:33 --> Invalid file: "layouts/admin/todotasks/createtodotasks/head.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/todotasks/createtodotasks/head.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layouts/admin/todotasks/createtodotasks/head', null, true)
+ 3 APPPATH\Views\layouts\admin\todotask\createtodotasks\base.php(5): CodeIgniter\View\View->include('layouts/admin/todotasks/createtodotasks/head')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\todotask\\createtodotasks\\base.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/base', [], true)
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/createtodotasks/index', [], true)
+ 8 APPPATH\Controllers\CreateToDoTasks.php(16): view('layouts/admin/todotask/createtodotasks/createtodotasks/index')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CreateToDoTasks->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CreateToDoTasks))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 04:02:34 --> Invalid file: "layouts/admin/todotasks/createtodotasks/head.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/todotasks/createtodotasks/head.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layouts/admin/todotasks/createtodotasks/head', null, true)
+ 3 APPPATH\Views\layouts\admin\todotask\createtodotasks\base.php(5): CodeIgniter\View\View->include('layouts/admin/todotasks/createtodotasks/head')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\todotask\\createtodotasks\\base.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/base', [], true)
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/createtodotasks/index', [], true)
+ 8 APPPATH\Controllers\CreateToDoTasks.php(16): view('layouts/admin/todotask/createtodotasks/createtodotasks/index')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CreateToDoTasks->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CreateToDoTasks))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 04:02:35 --> Invalid file: "layouts/admin/todotasks/createtodotasks/head.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/todotasks/createtodotasks/head.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layouts/admin/todotasks/createtodotasks/head', null, true)
+ 3 APPPATH\Views\layouts\admin\todotask\createtodotasks\base.php(5): CodeIgniter\View\View->include('layouts/admin/todotasks/createtodotasks/head')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\todotask\\createtodotasks\\base.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/base', [], true)
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/createtodotasks/index', [], true)
+ 8 APPPATH\Controllers\CreateToDoTasks.php(16): view('layouts/admin/todotask/createtodotasks/createtodotasks/index')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CreateToDoTasks->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CreateToDoTasks))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 04:03:45 --> Invalid file: "layouts/admin/todotasks/createtodotasks/sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/todotasks/createtodotasks/sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layouts/admin/todotasks/createtodotasks/sidebar', null, true)
+ 3 APPPATH\Views\layouts\admin\todotask\createtodotasks\base.php(14): CodeIgniter\View\View->include('layouts/admin/todotasks/createtodotasks/sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\todotask\\createtodotasks\\base.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/base', [], true)
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/createtodotasks/index', [], true)
+ 8 APPPATH\Controllers\CreateToDoTasks.php(16): view('layouts/admin/todotask/createtodotasks/createtodotasks/index')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CreateToDoTasks->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CreateToDoTasks))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 04:04:10 --> Invalid file: "layouts/admin/todotasks/createtodotasks/sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/todotasks/createtodotasks/sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layouts/admin/todotasks/createtodotasks/sidebar', null, true)
+ 3 APPPATH\Views\layouts\admin\todotask\createtodotasks\base.php(14): CodeIgniter\View\View->include('layouts/admin/todotasks/createtodotasks/sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\layouts\\admin\\todotask\\createtodotasks\\base.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/base', [], true)
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/todotask/createtodotasks/createtodotasks/index', [], true)
+ 8 APPPATH\Controllers\CreateToDoTasks.php(16): view('layouts/admin/todotask/createtodotasks/createtodotasks/index')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CreateToDoTasks->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CreateToDoTasks))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-11 05:05:01 --> Invalid file: "layouts/admin/todotask/assigntasks/assigntasks/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin/todotask/assigntasks/assigntasks/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/todotask/assigntasks/assigntasks/index', [], true)
+ 3 APPPATH\Controllers\AssignTasks.php(16): view('layouts/admin/todotask/assigntasks/assigntasks/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AssignTasks->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignTasks))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')

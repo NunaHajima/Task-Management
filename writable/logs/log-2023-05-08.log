@@ -38,3 +38,18 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
  6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')
+CRITICAL - 2023-05-08 09:55:45 --> Invalid file: "layouts/head.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/head.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layouts/head', null, true)
+ 3 APPPATH\Views\base.php(3): CodeIgniter\View\View->include('layouts/head')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\app\\Views\\base.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('base', [], true)
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product/index', [], true)
+ 8 APPPATH\Controllers\Product.php(42): view('product/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\PROYEK_Task Management\\public\\index.php')

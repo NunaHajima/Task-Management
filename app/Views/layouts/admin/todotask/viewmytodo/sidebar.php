@@ -13,7 +13,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="product/index">
+                <a class="nav-link" href="#">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -27,13 +27,13 @@
             </div>
 
             <li class="nav-item">
-                <a class="nav-link" href="/addemployee">
+                <a class="nav-link" href="#">
                     <i class="fas fa-fw fa-cog"></i>
                     <span>Add Employee</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="/viewallemployee">
+                <a class="nav-link" href="#">
                     <i class="fas fa-fw fa-cog"></i>
                     <span>View All Employee</span></a>
             </li>

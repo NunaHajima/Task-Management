@@ -33,9 +33,13 @@ $routes->get('/', 'Home::index');
 $routes->get('/Ngetesaja', 'Ngetesaja::index');
 
 $routes->resource('product'); 
+$routes->resource('addemployee');
 $routes->resource('viewallemployee'); 
 $routes->resource('createtodotasks'); 
+$routes->resource('viewmytodo'); 
 $routes->resource('assigntasks'); 
+$routes->resource('viewemployeetasks');
+// view employee's tasks
 /*
  * --------------------------------------------------------------------
  * Additional Routing

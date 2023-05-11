@@ -1,62 +1,39 @@
 <?= $this->extend('layouts/admin/employeesection/addemployee/base') ?>
-
 <?= $this->section('content') ?>
- <!-- Content Row -->
- <div class="row col-md-12">
+<div class="container mt-5">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h5 class="mb-4"><b>Add Employee</b></h5>
 
-<!-- Earnings (Monthly) Card Example -->
-<div class="col-xl-3 col-md-6 mb-4">
-    <div class="card border-left-primary shadow h-100 py-2">
-        <div class="card-body">
-            <div class="row no-gutters align-items-center">
-                <div class="col mr-2">
-                    <div class="h5 mb-0 font-weight-bold text-gray-800">X</div>
-                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                        Total Employees</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="col-xl-3 col-md-6 mb-4">
-    <div class="card border-left-primary shadow h-100 py-2">
-        <div class="card-body">
-            <div class="row no-gutters align-items-center">
-                <div class="col mr-2">
-                    <div class="h5 mb-0 font-weight-bold text-gray-800">X</div>
-                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                        Total Task/Assigned</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="col-xl-3 col-md-6 mb-4">
-    <div class="card border-left-primary shadow h-100 py-2">
-        <div class="card-body">
-            <div class="row no-gutters align-items-center">
-                <div class="col mr-2">
-                    <div class="h5 mb-0 font-weight-bold text-gray-800">X</div>
-                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                       Taks Done</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="col-xl-3 col-md-6 mb-4">
-    <div class="card border-left-primary shadow h-100 py-2">
-        <div class="card-body">
-            <div class="row no-gutters align-items-center">
-                <div class="col mr-2">
-                    <div class="h5 mb-0 font-weight-bold text-gray-800">X</div>
-                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                        --</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+            <form action="/product" method="post" enctype="multipart/form-data">
 
+                <div class="form-group">
+                    <label for="example-product-name">Employee Name</label>
+                    <input type="text" class="form-control" id="employeename" aria-describedby="emailHelp" 
+                        placeholder="Enter Employee Name" required name="employeename">
+                </div>
 
+                <div class="form-group">
+                    <label for="example-product-name">Employee Role</label>
+                    <input type="text" class="form-control" id="employeerole" aria-describedby="emailHelp" 
+                        placeholder="Enter Employee Role" required name="employeerole">
+                </div>
+
+                <div class="form-group">
+                    <label for="example-product-name">Email Address</label>
+                    <input type="text" class="form-control" id="emailaddress" aria-describedby="emailHelp" 
+                        placeholder="Enter Email Address" required name="emailaddress">
+                </div>
+
+                <div class="form-group">
+                    <label for="example-product-name">Password</label>
+                    <input type="password" class="form-control" id="password" aria-describedby="emailHelp" 
+                        placeholder="Enter Password" required name="password">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
 <?= $this->endSection() ?>

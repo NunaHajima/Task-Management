@@ -13,7 +13,7 @@ class ViewEmployeeTasks extends ResourceController
      */
     public function index()
     {
-        echo view ("layouts/admin/todotask/viewemployeetasks/viewemployeetasks/index");
+        echo view ("layouts/admin/todotask/viewemployeetasks/index");
     }
 
     /**

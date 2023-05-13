@@ -13,7 +13,7 @@ class AssignTasks extends ResourceController
      */
     public function index()
     {
-        echo view ("layouts/admin/todotask/assigntasks/assigntasks/index");
+        echo view ("layouts/admin/todotask/assigntasks/index");
     }
 
     /**

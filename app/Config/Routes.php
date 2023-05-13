@@ -39,7 +39,7 @@ $routes->resource('createtodotasks');
 $routes->resource('viewmytodo'); 
 $routes->resource('assigntasks'); 
 $routes->resource('viewemployeetasks');
-// view employee's tasks
+$routes->resource('viewemployeetasks');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

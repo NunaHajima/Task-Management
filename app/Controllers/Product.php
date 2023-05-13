@@ -3,28 +3,12 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
+use App\Models\EmployeeModel; 
 
 class Product extends ResourceController
 {
-    protected $session;
-
-    private $products = [
-        [
-            "id" => "623b476dc4f96", 
-            "name" => "Odol",
-            "category" => "utilities",
-            "stock" => 200,
-            "price" => 5000
-        ]
-    ];
-
     public function __construct() {
-        $this->session = \Config\Services::session();
-        $this->session->start();
-
-        if(!$this->session->get('products')) {
-            $this->session->set('products', $this->products);
-        }
+        $this->employeeModel = new EmployeeModel();
     }
 
 
@@ -35,11 +19,13 @@ class Product extends ResourceController
      */
     public function index()
     {
-        $payload = [
-            "products" => $this->session->get('products')
+        $employee = $this->employeeModel->findAll();
+
+        $employees = [
+            "employee" => $employee
         ];
 
-        echo view('layouts/admin/dashboard/dashboard/index', $payload);
+        echo view('layouts/admin/dashboard/dashboard/index', $employees);
     }
 
     /**
@@ -49,7 +35,7 @@ class Product extends ResourceController
      */
     public function show($id = null)
     {
-        echo view('layouts/admin/dashboard/dashboard/index');
+        //
     }
 
     /**
@@ -69,21 +55,16 @@ class Product extends ResourceController
      */
     public function create()
     {
-        
-        $products = $this->session->get('products');
-
-        $payload = [
+        $employees = [
             "id" => uniqid(),
-            "name" => $this->request->getPost('name'),
-            "stock" => (int) $this->request->getPost('stock'),
-            "price" => (int) $this->request->getPost('price'),
-            "category" => $this->request->getPost('category'),
+            "employeename" => $this->request->getPost('employeename'),
+            "employeerole" => $this->request->getPost('employeerole'),
+            "emailaddress" => $this->request->getPost('emailaddress'),
+            "password" => $this->request->getPost('password'),
         ];
 
-        array_push($products, $payload);
-
-        $this->session->set('products', $products);
-        return redirect()->to('layouts/admin/dashboarrd/product');
+        $this->employeeModel->insert($employees);
+        return redirect()->to('/product');
     }
 
     /**

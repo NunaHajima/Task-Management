@@ -3,17 +3,27 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
+use App\Models\EmployeeModel; 
 
 class AddEmployee extends ResourceController
 {
+    public function __construct() {
+        $this->employeeModel = new EmployeeModel();
+    }
     /**
      * Return an array of resource objects, themselves in array format
      *
      * @return mixed
      */
+    
     public function index()
     {
-        echo view ("layouts/admin/employeesection/addemployee/addemployee/index");
+        $employee = $this->employeeModel->findAll();
+
+        $employees = [
+            "employee" => $employee
+        ];
+        echo view ('layouts/admin/employeesection/addemployee/index',$employees);
     }
 
     /**
@@ -43,7 +53,17 @@ class AddEmployee extends ResourceController
      */
     public function create()
     {
-        //
+
+        $employees = [
+            "id" => uniqid(),
+            "employeename" => $this->request->getPost('employeename'),
+            "employeerole" => $this->request->getPost('employeerole'),
+            "emailaddress" => $this->request->getPost('emailaddress'),
+            "password" => $this->request->getPost('password'),
+        ];
+
+        $this->employeeModel->insert($employees);
+        return redirect()->to('/product');
     }
 
     /**

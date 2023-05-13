@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
+use App\Models\Todo; 
 
 class ViewMyTodo extends ResourceController
 {
@@ -11,9 +12,18 @@ class ViewMyTodo extends ResourceController
      *
      * @return mixed
      */
+    public function __construct() {
+        $this->todo = new Todo();
+    }
+
     public function index()
     {
-        echo view ("layouts/admin/todotask/viewmytodo/viewmytodo/index");
+        $todo = $this->todo->findAll();
+
+        $todos = [
+            "todo" => $todo
+        ];
+        echo view ("layouts/admin/todotask/viewmytodo/index",$todos);
     }
 
     /**

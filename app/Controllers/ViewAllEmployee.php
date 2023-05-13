@@ -3,9 +3,14 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
+use App\Models\EmployeeModel; 
 
 class ViewAllEmployee extends ResourceController
 {
+    public function __construct() {
+        $this->employeeModel = new EmployeeModel();
+    }
+
     /**
      * Return an array of resource objects, themselves in array format
      *
@@ -13,7 +18,12 @@ class ViewAllEmployee extends ResourceController
      */
     public function index()
     {
-        echo view ("layouts/admin/employeesection/viewallemployee/viewallemployee/index");
+        $employee = $this->employeeModel->findAll();
+
+        $employees = [
+            "employee" => $employee
+        ];
+        echo view ('layouts/admin/employeesection/viewallemployee/index',$employees);
     }
 
     /**

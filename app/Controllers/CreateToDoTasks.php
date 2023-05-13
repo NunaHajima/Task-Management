@@ -3,17 +3,28 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
+use App\Models\Todo;
 
 class CreateToDoTasks extends ResourceController
 {
+    
     /**
      * Return an array of resource objects, themselves in array format
      *
      * @return mixed
      */
+    public function __construct() {
+        $this->todo = new Todo();
+    }
+
     public function index()
     {
-        echo view ("layouts/admin/todotask/createtodotasks/createtodotasks/index");
+        $todo = $this->todo->findAll();
+
+        $todos = [
+            "todo" => $todo
+        ];
+        echo view ("layouts/admin/todotask/createtodotasks/index");
     }
 
     /**
@@ -43,7 +54,15 @@ class CreateToDoTasks extends ResourceController
      */
     public function create()
     {
-        //
+
+        $todos = [
+            "id" => uniqid(),
+            "taskname" => $this->request->getPost('taskname'),
+            "comments" => $this->request->getPost('comments'),
+        ];
+
+        $this->todo->insert($todos);
+        return redirect()->to('/createtodotasks');
     }
 
     /**

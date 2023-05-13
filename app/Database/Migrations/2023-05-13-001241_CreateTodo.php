@@ -21,7 +21,6 @@ class CreateTodo extends Migration
             "assignedfrom" => [
                 "type"=> "VARCHAR",
                 "constraint" => "200",
-                "default" => "Admin",
             ],
             "date" => [
                 "type"=> "DATE",

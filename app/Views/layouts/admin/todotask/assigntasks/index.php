@@ -15,11 +15,17 @@
             </div>
 
             <div class="form-group">
+                <label for="example-product-name">Employee Assign</label>
+                <input type="text" class="form-control" id="comments" aria-describedby="emailHelp" 
+                    placeholder="Choose Your Employee" required name="comments">
+            </div>
+
+            <div class="form-group">
                 <label for="example-product-name">Comments</label>
                 <input type="text" class="form-control" id="comments" aria-describedby="emailHelp" 
                     placeholder="Enter Todo Comment" required name="comments">
             </div>
-
+            
 
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>

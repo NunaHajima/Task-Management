@@ -10,7 +10,7 @@ class Todo extends Seeder
     {
         $data = [
             'taskname' => 'Membuat Invoice Pembelian',
-            'assignedfrom'    => 'Admin',
+            'assignedfrom'    => '',
             'date'    => '2021-07-01',
             'comments'    => 'Pembelian tanggal 1 Juni',
         ];

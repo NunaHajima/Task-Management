@@ -18,7 +18,16 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php $no = 0; ?>
+                <?php $no = 0; ?>
+                <?php foreach ($assigned as $item): ?>
+                    <tr>
+                        <td><?= $no += 1; ?></td>
+                        <td><?= $item['taskname'] ?></td>
+                        <td><?= $item['assignedto'] ?></td>
+                        <td><?= $item['date'] ?></td>
+                        <td><?= $item['comments'] ?></td>
+                    </tr>
+                <?php endforeach ?>
                     
                 </tbody>
             </table>

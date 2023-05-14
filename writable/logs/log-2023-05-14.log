@@ -1,0 +1,324 @@
+ERROR - 2023-05-14 13:44:51 --> mysqli_sql_exception: Table 'task_management.assigns' doesn't exist in C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\app\Controllers\AssignTasks.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(934): App\Controllers\AssignTasks->index()
+#8 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignTasks))
+#9 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-05-14 13:44:51 --> Table 'task_management.assigns' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `assigns`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `assigns`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `assigns`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `assigns`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AssignTasks.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AssignTasks->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignTasks))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\public\\index.php')
+ERROR - 2023-05-14 13:55:47 --> mysqli_sql_exception: Table 'task_management.assigns' doesn't exist in C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\app\Controllers\AssignTasks.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(934): App\Controllers\AssignTasks->index()
+#8 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignTasks))
+#9 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-05-14 13:55:47 --> Table 'task_management.assigns' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `assigns`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `assigns`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `assigns`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `assigns`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AssignTasks.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AssignTasks->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignTasks))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\public\\index.php')
+ERROR - 2023-05-14 13:57:32 --> mysqli_sql_exception: Table 'task_management.assigns' doesn't exist in C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\app\Controllers\AssignTasks.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(934): App\Controllers\AssignTasks->index()
+#8 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignTasks))
+#9 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-05-14 13:57:32 --> Table 'task_management.assigns' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `assigns`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `assigns`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `assigns`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `assigns`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AssignTasks.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AssignTasks->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignTasks))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\public\\index.php')
+ERROR - 2023-05-14 14:26:52 --> mysqli_sql_exception: Table 'task_management.assigns' doesn't exist in C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\app\Controllers\AssignTasks.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(934): App\Controllers\AssignTasks->index()
+#8 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignTasks))
+#9 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-05-14 14:26:52 --> Table 'task_management.assigns' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `assigns`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `assigns`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `assigns`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `assigns`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AssignTasks.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AssignTasks->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignTasks))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\public\\index.php')
+ERROR - 2023-05-14 14:26:56 --> mysqli_sql_exception: Table 'task_management.assigns' doesn't exist in C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\app\Controllers\AssignTasks.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(934): App\Controllers\AssignTasks->index()
+#8 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignTasks))
+#9 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-05-14 14:26:56 --> Table 'task_management.assigns' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `assigns`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `assigns`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `assigns`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `assigns`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AssignTasks.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AssignTasks->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignTasks))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\public\\index.php')
+ERROR - 2023-05-14 14:28:12 --> mysqli_sql_exception: Unknown column 'assignedemployees' in 'field list' in C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\app\Database\Seeds\Assign.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\Seeder.php(146): App\Database\Seeds\Assign->run()
+#6 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-05-14 14:28:54 --> mysqli_sql_exception: Unknown column 'comments' in 'field list' in C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\app\Database\Seeds\Assign.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\Seeder.php(146): App\Database\Seeds\Assign->run()
+#6 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-05-14 14:29:45 --> mysqli_sql_exception: Table 'task_management.assigns' doesn't exist in C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\app\Controllers\AssignTasks.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(934): App\Controllers\AssignTasks->index()
+#8 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignTasks))
+#9 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-05-14 14:29:45 --> Table 'task_management.assigns' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `assigns`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `assigns`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `assigns`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `assigns`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AssignTasks.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AssignTasks->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignTasks))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\public\\index.php')
+ERROR - 2023-05-14 14:29:47 --> mysqli_sql_exception: Table 'task_management.assigns' doesn't exist in C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\app\Controllers\AssignTasks.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(934): App\Controllers\AssignTasks->index()
+#8 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignTasks))
+#9 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-05-14 14:29:47 --> Table 'task_management.assigns' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `assigns`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `assigns`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `assigns`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `assigns`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AssignTasks.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AssignTasks->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignTasks))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\public\\index.php')
+CRITICAL - 2023-05-14 14:29:51 --> Undefined variable $assigned
+in APPPATH\Views\layouts\admin\todotask\viewemployeetasks\index.php on line 22.
+ 1 APPPATH\Views\layouts\admin\todotask\viewemployeetasks\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $assigned', 'C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\app\\Views\\layouts\\admin\\todotask\\viewemployeetasks\\index.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\app\\Views\\layouts\\admin\\todotask\\viewemployeetasks\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/todotask/viewemployeetasks/index', [], true)
+ 5 APPPATH\Controllers\ViewEmployeeTasks.php(16): view('layouts/admin/todotask/viewemployeetasks/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ViewEmployeeTasks->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewEmployeeTasks))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\public\\index.php')
+ERROR - 2023-05-14 14:31:35 --> mysqli_sql_exception: Column 'employeename' cannot be null in C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\app\Controllers\Product.php(66): CodeIgniter\Model->insert(Array)
+#8 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(934): App\Controllers\Product->create()
+#9 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#10 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#13 {main}
+CRITICAL - 2023-05-14 14:31:35 --> Column 'employeename' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `employee` (`employeename`, `employeerole`, `emailaddress`, `password`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `employee` (`employeename`, `employeerole`, `emailaddress`, `password`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `employee` (`employeename`, `employeerole`, `emailaddress`, `password`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employee` (`employeename`, `employeerole`, `emailaddress`, `password`) VALUES (:employeename:, :employeerole:, :emailaddress:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Product.php(66): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->create()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\public\\index.php')
+CRITICAL - 2023-05-14 14:31:42 --> Undefined variable $assigned
+in APPPATH\Views\layouts\admin\todotask\viewemployeetasks\index.php on line 22.
+ 1 APPPATH\Views\layouts\admin\todotask\viewemployeetasks\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $assigned', 'C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\app\\Views\\layouts\\admin\\todotask\\viewemployeetasks\\index.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\app\\Views\\layouts\\admin\\todotask\\viewemployeetasks\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/todotask/viewemployeetasks/index', [], true)
+ 5 APPPATH\Controllers\ViewEmployeeTasks.php(16): view('layouts/admin/todotask/viewemployeetasks/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ViewEmployeeTasks->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewEmployeeTasks))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\public\\index.php')
+CRITICAL - 2023-05-14 14:31:47 --> Undefined variable $assigned
+in APPPATH\Views\layouts\admin\todotask\viewemployeetasks\index.php on line 22.
+ 1 APPPATH\Views\layouts\admin\todotask\viewemployeetasks\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $assigned', 'C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\app\\Views\\layouts\\admin\\todotask\\viewemployeetasks\\index.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\app\\Views\\layouts\\admin\\todotask\\viewemployeetasks\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/todotask/viewemployeetasks/index', [], true)
+ 5 APPPATH\Controllers\ViewEmployeeTasks.php(16): view('layouts/admin/todotask/viewemployeetasks/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ViewEmployeeTasks->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewEmployeeTasks))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\public\\index.php')

@@ -18,7 +18,7 @@ class CreateAssign extends Migration
                 "type"=> "VARCHAR",
                 "constraint" => "200",
             ],
-            "employee" => [
+            "assignedto" => [
                 "type"=> "VARCHAR",
                 "constraint" => "200",
             ],

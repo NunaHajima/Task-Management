@@ -3,14 +3,9 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
-use App\Models\Assign;
 
 class AssignTasks extends ResourceController
 {
-    public function __construct() {
-        $this->assign = new Assign();
-    }
-    
     /**
      * Return an array of resource objects, themselves in array format
      *
@@ -18,13 +13,7 @@ class AssignTasks extends ResourceController
      */
     public function index()
     {
-        $assign = $this->assign->findAll();
-        
-        $assigned = [
-            "assign" => $assign
-        ];
-        
-        echo view ("layouts/admin/todotask/assigntasks/index", $assigned);
+        echo view ("layouts/admin/todotask/assigntasks/index");
     }
 
     /**
@@ -44,7 +33,7 @@ class AssignTasks extends ResourceController
      */
     public function new()
     {
-        echo view ("layouts/admin/todotask/assigntasks/index", $assigned);
+        //
     }
 
     /**
@@ -54,16 +43,7 @@ class AssignTasks extends ResourceController
      */
     public function create()
     {
-        $assigned = [
-            "id" => uniqid(),
-            "date" => $this->request->getPost('date'),
-            "taskname" => $this->request->getPost('taskname'),
-            "assignedemployees" => $this->request->getPost('assignedemployees'),
-            "comments" => $this->request->getPost('comments'),
-        ];
-
-        $this->assign->insert($assigned);
-        return redirect()->to('/assigntasks');
+        //
     }
 
     /**
@@ -73,13 +53,7 @@ class AssignTasks extends ResourceController
      */
     public function edit($id = null)
     {
-        $product = $this->assign->find($id);
-        
-        if (!$product) {
-            throw new \Exception("assignment not found!");   
-        }
-        
-        echo view('product/edit', ["data" => $product]);
+        //
     }
 
     /**
@@ -88,18 +62,8 @@ class AssignTasks extends ResourceController
      * @return mixed
      */
     public function update($id = null)
-
     {
-        $assigned = [
-            "id" => uniqid(),
-            "date" => $this->request->getPost('date'),
-            "taskname" => $this->request->getPost('taskname'),
-            "assignedemployees" => $this->request->getPost('assignedemployees'),
-            "comments" => $this->request->getPost('comments'),
-        ];
-
-        $this->assign ->update($id, $assigned);
-        return redirect()->to('/assigntask');
+        //
     }
 
     /**
@@ -109,7 +73,6 @@ class AssignTasks extends ResourceController
      */
     public function delete($id = null)
     {
-        $this->assign->delete($id);
-        return redirect()->to('assigntasks');
+        //
     }
 }

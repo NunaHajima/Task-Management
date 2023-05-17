@@ -4,40 +4,40 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class CreateEmployee extends Migration
+class CreateAssign extends Migration
 {
     public function up()
     {
         $fields = [
-            "id" => [
+            "id_assign" => [
                 "type"=> "INT",
                 "unsigned"=> true,
                 "auto_increment"=> true,
             ],
-            "employeename" => [
+            "taskname" => [
                 "type"=> "VARCHAR",
                 "constraint" => "200",
             ],
-            "employeerole" => [
+            "assignedto" => [
                 "type"=> "VARCHAR",
                 "constraint" => "200",
             ],
-            "emailaddress" => [
-                "type"=> "VARCHAR",
-                "constraint" => "200",
-            ],
-            "password" => [
+            "date" => [
+                "type"=> "DATE",
+            ],    
+            "comment" => [
                 "type"=> "VARCHAR",
                 "constraint" => "200",
             ],
         ];
-        $this->forge->addKey('id', true);
+        $this->forge->addKey('id_assign', true);
         $this->forge->addField($fields);
-        $this->forge->createTable('employee', true); //If NOT EXISTS create table products
+        //$this->forge->addForeignKey('id_employee','employee','id_employee'); // engga bisa di migrate
+        $this->forge->createTable('assign', true); //If NOT EXISTS create table products
     }
 
     public function down()
     {
-        $this->forge->dropTable('employee', true); //If Exists drop table products
+        $this->forge->dropTable('assign', true); //If Exists drop table products
     }
 }

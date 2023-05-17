@@ -3,9 +3,9 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
-use App\Models\Assign; 
+use App\Models\Users;
 
-class AssignTasks extends ResourceController
+class Create extends ResourceController
 {
     /**
      * Return an array of resource objects, themselves in array format
@@ -13,17 +13,16 @@ class AssignTasks extends ResourceController
      * @return mixed
      */
     public function __construct() {
-        $this->assign = new Assign();
+        $this->users = new Users();
     }
-
     public function index()
     {
-        $assign = $this->assign->findAll();
+        $users = $this->users->findAll();
 
-        $assigned = [
-            "assign" => $assign
+        $data = [
+            "users" => $users
         ];
-        echo view ("layouts/admin/todotask/assigntasks/index",$assigned);
+        echo view ('layouts/users/create/index',$data);
     }
 
     /**
@@ -43,7 +42,7 @@ class AssignTasks extends ResourceController
      */
     public function new()
     {
-        echo view ("layouts/admin/todotask/assigntasks/index");
+        //
     }
 
     /**
@@ -53,16 +52,16 @@ class AssignTasks extends ResourceController
      */
     public function create()
     {
-        $assigned = [
+        $data = [
             "id" => uniqid(),
-            "taskname" => $this->request->getPost('taskname'),
-            "assignedto" => $this->request->getPost('assignedto'),
             "date" => $this->request->getPost('date'),
-            "comment" => $this->request->getPost('comment'),
+            "taskname" => $this->request->getPost('taskname'),
+            "assignedfrom" => $this->request->getPost('assignedfrom'),
+            "comments" => $this->request->getPost('comments'),
         ];
 
-        $this->assign->insert($assigned);
-        return redirect()->to('/product');
+        $this->users->insert($data);
+        return redirect()->to('/dashboard');
     }
 
     /**

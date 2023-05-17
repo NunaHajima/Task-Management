@@ -4,11 +4,11 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Todo extends Model
+class Users extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'todo';
-    protected $primaryKey       = 'id_todo';
+    protected $table            = 'users';
+    protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;

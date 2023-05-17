@@ -4,39 +4,40 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class CreateTodo extends Migration
+class CreateEmployee extends Migration
 {
     public function up()
     {
         $fields = [
-            "id" => [
+            "id_employee" => [
                 "type"=> "INT",
                 "unsigned"=> true,
                 "auto_increment"=> true,
             ],
-            "taskname" => [
+            "employeename" => [
                 "type"=> "VARCHAR",
                 "constraint" => "200",
             ],
-            "assignedfrom" => [
+            "employeerole" => [
                 "type"=> "VARCHAR",
                 "constraint" => "200",
             ],
-            "date" => [
-                "type"=> "DATE",
+            "emailaddress" => [
+                "type"=> "VARCHAR",
+                "constraint" => "200",
             ],
-            "comments" => [
+            "password" => [
                 "type"=> "VARCHAR",
                 "constraint" => "200",
             ],
         ];
-        $this->forge->addKey('id', true);
+        $this->forge->addKey('id_employee', true);
         $this->forge->addField($fields);
-        $this->forge->createTable('todo', true); //If NOT EXISTS create table products
+        $this->forge->createTable('employee', true); //If NOT EXISTS create table products
     }
 
     public function down()
     {
-        $this->forge->dropTable('todo', true); //If Exists drop table products
+        $this->forge->dropTable('employee', true); //If Exists drop table products
     }
 }

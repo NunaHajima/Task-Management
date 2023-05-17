@@ -3,27 +3,18 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
-use App\Models\Assign; 
 
-class AssignTasks extends ResourceController
+
+class Dashboard extends ResourceController
 {
     /**
      * Return an array of resource objects, themselves in array format
      *
      * @return mixed
      */
-    public function __construct() {
-        $this->assign = new Assign();
-    }
-
     public function index()
     {
-        $assign = $this->assign->findAll();
-
-        $assigned = [
-            "assign" => $assign
-        ];
-        echo view ("layouts/admin/todotask/assigntasks/index",$assigned);
+        echo view('layouts/users/dashboardU/dashboardU/index');
     }
 
     /**
@@ -43,7 +34,7 @@ class AssignTasks extends ResourceController
      */
     public function new()
     {
-        echo view ("layouts/admin/todotask/assigntasks/index");
+        //
     }
 
     /**
@@ -53,16 +44,7 @@ class AssignTasks extends ResourceController
      */
     public function create()
     {
-        $assigned = [
-            "id" => uniqid(),
-            "taskname" => $this->request->getPost('taskname'),
-            "assignedto" => $this->request->getPost('assignedto'),
-            "date" => $this->request->getPost('date'),
-            "comment" => $this->request->getPost('comment'),
-        ];
-
-        $this->assign->insert($assigned);
-        return redirect()->to('/product');
+        //
     }
 
     /**
@@ -72,7 +54,7 @@ class AssignTasks extends ResourceController
      */
     public function edit($id = null)
     {
-        //
+    //
     }
 
     /**

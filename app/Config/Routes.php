@@ -32,6 +32,7 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->get('/Ngetesaja', 'Ngetesaja::index');
 
+//admin
 $routes->resource('product'); 
 $routes->resource('addemployee');
 $routes->resource('viewallemployee'); 
@@ -40,6 +41,11 @@ $routes->resource('viewmytodo');
 $routes->resource('assigntasks'); 
 $routes->resource('viewemployeetasks');
 $routes->resource('viewemployeetasks');
+
+//users
+$routes->resource('dashboard');
+$routes->resource('create');
+$routes->resource('view');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -10,7 +10,7 @@ class Assign extends Seeder
     {
         $data = [
             'taskname' => 'Membuat fitur CRUD pada APP',
-            'assignedto' => 'Rahman',
+            'assignedto' => 'Wisnu Murti',
             'date'    => '2023-07-01',
             'comment'    => 'CRUD basic',
         ];

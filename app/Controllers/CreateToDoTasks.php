@@ -59,7 +59,8 @@ class CreateToDoTasks extends ResourceController
             "id" => uniqid(),
             "date" => $this->request->getPost('date'),
             "taskname" => $this->request->getPost('taskname'),
-            "comments" => $this->request->getPost('comments'),
+            "assignedfrom" => $this->request->getPost('assignedfrom'),
+            "comment" => $this->request->getPost('comment'),
         ];
 
         $this->todo->insert($todos);

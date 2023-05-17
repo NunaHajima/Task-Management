@@ -4,19 +4,18 @@ namespace App\Database\Seeds;
 
 use CodeIgniter\Database\Seeder;
 
-class Todo extends Seeder
+class Users extends Seeder
 {
     public function run()
     {
         $data = [
-            'taskname' => 'Membuat Invoice Pembelian',
-            'assignedfrom'    => 'HRD',
+            'taskname' => 'Menghitung pajak',
+            'assignedfrom'    => 'Kepala Bagian',
             'date'    => '2021-07-01',
             'comments'    => 'Pembelian tanggal 1 Juni',
         ];
 
         // Simple Queries
-        $this->db->table('todo')->insert($data);
-        
+        $this->db->table('users')->insert($data);
     }
 }

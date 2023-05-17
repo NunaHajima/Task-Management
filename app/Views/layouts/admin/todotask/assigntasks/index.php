@@ -6,7 +6,7 @@
 
             <h5 class="mb-4">Assign Task</h5>
 
-        <form action="/product" method="post" enctype="multipart/form-data">
+        <form action="/assigntasks" method="post" enctype="multipart/form-data">
 
             <div class="form-group">
                 <label for="example-product-name">Task Name</label>
@@ -15,16 +15,21 @@
             </div>
 
             <div class="form-group">
-                <label for="example-product-name">Employee Assign</label>
-                <input type="text" class="form-control" id="comments" aria-describedby="emailHelp" 
-                    placeholder="Choose Your Employee" required name="comments">
+                <label for="example-product-name">Assign To Employee</label>
+                <input type="text" class="form-control" id="assignedto" aria-describedby="emailHelp" 
+                    placeholder="Choose Your Employee" required name="assignedto">
+            </div>
+            <div class="form-group">
+                <label for="example-product-name">Date</label>
+                <input type="date" class="form-control" id="date" aria-describedby="emailHelp" 
+                    placeholder="Choose Your Employee" required name="date">
             </div>
 
             <div class="form-group">
-                <label for="example-product-name">Comments</label>
-                <input type="text" class="form-control" id="comments" aria-describedby="emailHelp" 
-                    placeholder="Enter Todo Comment" required name="comments">
-            </div>
+                    <label for="example-product-name">Comments</label>
+                    <textarea class="form-control" id="comment" rows="3"
+                        placeholder="Enter Todo Comment" required name="comment"></textarea>  
+                </div>
             
 
         <button type="submit" class="btn btn-primary">Submit</button>

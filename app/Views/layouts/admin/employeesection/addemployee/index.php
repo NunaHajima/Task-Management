@@ -27,7 +27,7 @@
 
                 <div class="form-group">
                     <label for="example-product-name">Password</label>
-                    <input type="password" class="form-control" id="password" aria-describedby="emailHelp" 
+                    <input type="text" class="form-control" id="password" aria-describedby="emailHelp" 
                         placeholder="Enter Password" required name="password">
                 </div>
 

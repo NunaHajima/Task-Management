@@ -7,13 +7,13 @@ use CodeIgniter\Model;
 class Assign extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'assigns';
-    protected $primaryKey       = 'id';
+    protected $table            = 'assign';
+    protected $primaryKey       = 'id_assign';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['taskname', 'assignedto', 'date', 'comment'];
 
     // Dates
     protected $useTimestamps = false;

@@ -10,8 +10,6 @@ class Product extends ResourceController
     public function __construct() {
         $this->employeeModel = new EmployeeModel();
     }
-
-
     /**
      * Return an array of resource objects, themselves in array format
      *

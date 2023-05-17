@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
+use App\Models\Assign; 
 
 class ViewEmployeeTasks extends ResourceController
 {
@@ -11,9 +12,18 @@ class ViewEmployeeTasks extends ResourceController
      *
      * @return mixed
      */
+    public function __construct() {
+        $this->assign = new Assign();
+    }
+
     public function index()
     {
-        echo view ("layouts/admin/todotask/viewemployeetasks/index");
+        $assign = $this->assign->findAll();
+
+        $assigned = [
+            "assign" => $assign
+        ];
+        echo view ("layouts/admin/todotask/viewemployeetasks/index",$assigned);
     }
 
     /**

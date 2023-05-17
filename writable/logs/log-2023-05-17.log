@@ -1732,3 +1732,36 @@ WARNING - 2023-05-17 15:14:38 --> [DEPRECATED] Creation of dynamic property App\
  3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+ERROR - 2023-05-17 15:24:20 --> mysqli_sql_exception: Table 'taskmanagement.assign' doesn't exist in C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\app\Controllers\ViewEmployeeTasks.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(934): App\Controllers\ViewEmployeeTasks->index()
+#8 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewEmployeeTasks))
+#9 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Documents\GitHub\Task-Management_Prooyek\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-05-17 15:24:20 --> Table 'taskmanagement.assign' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `assign`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `assign`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `assign`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `assign`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ViewEmployeeTasks.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ViewEmployeeTasks->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewEmployeeTasks))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Documents\\GitHub\\Task-Management_Prooyek\\public\\index.php')

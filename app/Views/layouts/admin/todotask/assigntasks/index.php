@@ -17,8 +17,7 @@
             <div class="form-group">
                 <label for="example-product-name">Assign To Employee</label>
                 </br>
-
-                <select name="category" id="category" >
+                <select name="assignedto" id="assignedto" >
                     <?php foreach ($dropdown as $row) { ?>
                         <option value="<?= $row['employeename'] ?>" ><?= $row['employeename'] ?></option>
                     <?php } ?>

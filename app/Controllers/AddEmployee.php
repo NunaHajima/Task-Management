@@ -71,9 +71,15 @@ class AddEmployee extends ResourceController
      *
      * @return mixed
      */
-    public function edit($id = null)
+    public function edit($id_employee = null)
     {
-        //
+        $employee = $this->employeeModel->find($id_employee);
+        
+        if (!$employee) {
+            throw new \Exception("Data not found!");   
+        }
+        
+        echo view ('layouts/admin/employeesection/viewallemployee/edit', ["item" => $employee]);
     }
 
     /**
@@ -81,9 +87,15 @@ class AddEmployee extends ResourceController
      *
      * @return mixed
      */
-    public function update($id = null)
+    public function update($id_employee = null)
     {
-        //
+        $employees = [
+            "employeename" => $this->request->getPost('employeename'),
+            "employeerole" => $this->request->getPost('employeerole'),
+        ];
+
+        $this->employeeModel->update($id_employee, $employees);
+        return redirect()->to('/viewallemployee');
     }
 
     /**
@@ -91,8 +103,9 @@ class AddEmployee extends ResourceController
      *
      * @return mixed
      */
-    public function delete($id = null)
+    public function delete($id_employee = null)
     {
-        //
+        $this->employeeModel->delete($id_employee);
+        return redirect()->to('/viewallemployee');
     }
 }

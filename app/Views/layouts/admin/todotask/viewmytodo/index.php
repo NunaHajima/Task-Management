@@ -4,7 +4,7 @@
 <div class="row mb-4">
         <div class="col-12">
 
-            <h5 class="mb-4">My Todo Task List</h5>
+            <h5 class="mb-4"><b>My Todo Task List</b></h5>
 
             <table class="table table-hover ">
                 <thead>
@@ -27,6 +27,16 @@
                         <td><?= $item['assignedfrom'] ?></td>
                         <td><?= $item['date'] ?></td>
                         <td><?= $item['comments'] ?></td>
+                        <td> untuk DONE</td>
+                        <td>
+                            <div class="btn-group " role="group " aria-label="Basic example ">
+                                    <form action="/createtodotasks/<?= $item['id_todo'] ?>"  method="post" onsubmit="return confirm(`Are you sure?`)">
+                                        <a href="/createtodotasks/<?= $item['id_todo'] ?>/edit" class="btn btn-info text-white "><i class="fas fa-pencil-alt"></i></a>
+                                        <input  type="hidden" name="_method" value="delete" />
+                                        <button class="btn btn-danger text-white "  type="submit"><i class="fas fa-trash"></i></button>
+                                    </form>
+                            </div>
+                        </td>
                     </tr>
                 <?php endforeach ?>
                     

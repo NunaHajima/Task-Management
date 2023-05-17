@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
 use App\Models\Assign; 
+use App\Models\EmployeeModel; 
 
 class AssignTasks extends ResourceController
 {
@@ -14,14 +15,17 @@ class AssignTasks extends ResourceController
      */
     public function __construct() {
         $this->assign = new Assign();
+        $this->employeeModel = new EmployeeModel();
     }
 
     public function index()
     {
         $assign = $this->assign->findAll();
+        $employee = $this->employeeModel->findAll();
 
         $assigned = [
-            "assign" => $assign
+            "assign" => $assign,
+            "dropdown" => $employee
         ];
         echo view ("layouts/admin/todotask/assigntasks/index",$assigned);
     }

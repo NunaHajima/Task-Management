@@ -24,7 +24,7 @@ class CreateToDoTasks extends ResourceController
         $todos = [
             "todo" => $todo
         ];
-        echo view ("layouts/admin/todotask/createtodotasks/index");
+        echo view ("layouts/admin/todotask/createtodotasks/index", $todos);
     }
 
     /**
@@ -60,7 +60,7 @@ class CreateToDoTasks extends ResourceController
             "date" => $this->request->getPost('date'),
             "taskname" => $this->request->getPost('taskname'),
             "assignedfrom" => $this->request->getPost('assignedfrom'),
-            "comment" => $this->request->getPost('comment'),
+            "comments" => $this->request->getPost('comments'),
         ];
 
         $this->todo->insert($todos);
@@ -72,9 +72,15 @@ class CreateToDoTasks extends ResourceController
      *
      * @return mixed
      */
-    public function edit($id = null)
+    public function edit($id_todo = null)
     {
-        //
+        $todo = $this->todo->find($id_todo);
+        
+        if (!$todo) {
+            throw new \Exception("Data not found!");   
+        }
+        
+        echo view ("layouts/admin/todotask/viewmytodo/edit", ["item" => $todo]);
     }
 
     /**
@@ -82,9 +88,17 @@ class CreateToDoTasks extends ResourceController
      *
      * @return mixed
      */
-    public function update($id = null)
+    public function update($id_todo = null)
     {
-        //
+        $todos = [
+            "date" => $this->request->getPost('date'),
+            "taskname" => $this->request->getPost('taskname'),
+            "assignedfrom" => $this->request->getPost('assignedfrom'),
+            "comments" => $this->request->getPost('comments'),
+        ];
+
+        $this->todo->update($id_todo, $todos);
+        return redirect()->to('/viewmytodo');
     }
 
     /**
@@ -92,8 +106,9 @@ class CreateToDoTasks extends ResourceController
      *
      * @return mixed
      */
-    public function delete($id = null)
+    public function delete($id_todo = null)
     {
-        //
+        $this->todo->delete($id_todo);
+        return redirect()->to('/viewmytodo');
     }
 }

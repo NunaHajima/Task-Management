@@ -46,6 +46,9 @@ $routes->resource('viewemployeetasks');
 $routes->resource('dashboard');
 $routes->resource('create');
 $routes->resource('view');
+
+// update employee
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

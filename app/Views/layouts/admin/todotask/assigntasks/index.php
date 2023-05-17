@@ -18,7 +18,15 @@
                 <label for="example-product-name">Assign To Employee</label>
                 <input type="text" class="form-control" id="assignedto" aria-describedby="emailHelp" 
                     placeholder="Choose Your Employee" required name="assignedto">
+                    <br />
+        
+        <select name="category" id="category">
+        <?php foreach ($dropdown as $row) { ?>
+            <option value="<?= $row['employeename'] ?>" ><?= $row['employeename'] ?></option>
+        <?php } ?>
+        </select>
             </div>
+
             <div class="form-group">
                 <label for="example-product-name">Date</label>
                 <input type="date" class="form-control" id="date" aria-describedby="emailHelp" 

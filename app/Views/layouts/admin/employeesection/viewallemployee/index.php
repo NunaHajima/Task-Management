@@ -26,6 +26,15 @@
                         <td><?= $item['employeerole'] ?></td>
                         <td><?= $item['emailaddress'] ?></td>
                         <td><?= $item['password'] ?></td>
+                        <td>
+                            <div class="btn-group " role="group " aria-label="Basic example ">
+                                    <form action="/addemployee/<?= $item['id_employee'] ?>"  method="post" onsubmit="return confirm(`Are you sure?`)">
+                                        <a href="/addemployee/<?= $item['id_employee'] ?>/edit" class="btn btn-info text-white "><i class="fas fa-pencil-alt"></i></a>
+                                        <input  type="hidden" name="_method" value="delete" />
+                                        <button class="btn btn-danger text-white "  type="submit"><i class="fas fa-trash"></i></button>
+                                    </form>
+                            </div>
+                        </td>
                     </tr>
                 <?php endforeach ?>
                 </tbody>

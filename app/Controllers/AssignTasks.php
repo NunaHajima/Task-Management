@@ -8,11 +8,6 @@ use App\Models\EmployeeModel;
 
 class AssignTasks extends ResourceController
 {
-    /**
-     * Return an array of resource objects, themselves in array format
-     *
-     * @return mixed
-     */
     public function __construct() {
         $this->assign = new Assign();
         $this->employeeModel = new EmployeeModel();

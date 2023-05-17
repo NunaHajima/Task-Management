@@ -15,6 +15,7 @@
                         <th scope="col ">Date</th>
                         <th scope="col ">Comments</th>
                         <th scope="col ">Status</th>
+                        <th scope="col ">Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -26,6 +27,19 @@
                         <td><?= $item['assignedto'] ?></td>
                         <td><?= $item['date'] ?></td>
                         <td><?= $item['comment'] ?></td>
+                        <td>
+                           //
+                            
+                        </td>
+                        <td>
+                            <div class="btn-group " role="group " aria-label="Basic example ">
+                                    <form action="/assigntasks/<?= $item['id_assign'] ?>"  method="post" onsubmit="return confirm(`Are you sure?`)">
+                                        <a href="/assigntasks/<?= $item['id_assign'] ?>/edit" class="btn btn-info text-white "><i class="fas fa-pencil-alt"></i></a>
+                                        <input  type="hidden" name="_method" value="delete" />
+                                        <button class="btn btn-danger text-white "  type="submit"><i class="fas fa-trash"></i></button>
+                                    </form>
+                            </div>
+                        </td>
                     </tr>
                 <?php endforeach ?>
                 </tbody>

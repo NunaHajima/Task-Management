@@ -16,8 +16,6 @@
 
             <div class="form-group">
                 <label for="example-product-name">Assign To Employee</label>
-                <input type="text" id="assignedto" aria-describedby="emailHelp" 
-                >
                 </br>
 
                 <select name="category" id="category" >

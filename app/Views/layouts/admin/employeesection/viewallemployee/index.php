@@ -1,6 +1,6 @@
 <?= $this->extend('layouts/admin/dashboard/base') ?>
 <?= $this->section('content') ?>
-<div class="container mt-5">
+<div class="container mt-3">
     <div class="row mb-4">
         <div class="col-12">
 
@@ -39,6 +39,9 @@
                 <?php endforeach ?>
                 </tbody>
             </table>
+        </div>
+        <div class="col-12">
+            <?= $pager->links('user', 'custom_pagination') ?>
         </div>
     </div>
 </div>

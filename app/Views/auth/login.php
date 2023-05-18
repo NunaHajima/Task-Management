@@ -42,11 +42,11 @@
                                         <div class="form-group">
                                             <input type="text" class="form-control form-control-user"
                                                 id="emailaddress"  aria-describedby="emailHelp"
-                                                name ="emailaddress" placeholder="Enter Email Address..." value="<?= old('emailaddress') ?>">
+                                                name ="emailaddress" redirect placeholder="Enter Email Address..." value="<?= old('emailaddress') ?>">
                                         </div>
                                         <div class="form-group">
                                             <input type="password" class="form-control" id="example-password" aria-describedby="emailHelp" 
-                                                placeholder="Enter password" name="passwordemployee" id="passwordemployee"  <?= old('passwordemployee') ?>>
+                                                placeholder="Enter password" redirect name="passwordemployee" id="passwordemployee"  <?= old('passwordemployee') ?>>
                                         </div>
                                         <button class="btn btn-primary btn-user btn-block">Login</button>
                                     </form>

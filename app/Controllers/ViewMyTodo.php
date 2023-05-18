@@ -18,10 +18,11 @@ class ViewMyTodo extends ResourceController
 
     public function index()
     {
-        $todo = $this->todo->findAll();
+        $todo = $this->todo->paginate(6,'todo');
 
         $todos = [
-            "todo" => $todo
+            "todo" => $todo,
+            "pager" => $this->todo->pager
         ];
         echo view ("layouts/admin/todotask/viewmytodo/index",$todos);
     }

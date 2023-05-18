@@ -36,18 +36,35 @@ $routes->get('/Ngetesaja', 'Ngetesaja::index');
 $routes->group('', ['filter' => 'authMiddleware'], function($routes) {
     $routes->resource('product');
 });
-$routes->resource('addemployee');
-$routes->resource('viewallemployee'); 
-$routes->resource('createtodotasks'); 
-$routes->resource('viewmytodo'); 
-$routes->resource('assigntasks'); 
-$routes->resource('viewemployeetasks');
-$routes->resource('viewemployeetasks');
+$routes->group('', ['filter' => 'authMiddleware'], function($routes) {
+    $routes->resource('addemployee');
+});
+$routes->group('', ['filter' => 'authMiddleware'], function($routes) {
+    $routes->resource('viewallemployee');
+});
+$routes->group('', ['filter' => 'authMiddleware'], function($routes) {
+    $routes->resource('createtodotasks');
+}); 
+$routes->group('', ['filter' => 'authMiddleware'], function($routes) {
+    $routes->resource('viewmytodo');
+});
+$routes->group('', ['filter' => 'authMiddleware'], function($routes) {
+    $routes->resource('assigntasks');
+});
+$routes->group('', ['filter' => 'authMiddleware'], function($routes) {
+    $routes->resource('viewemployeetasks');
+});
 
 //users
-$routes->resource('dashboard');
-$routes->resource('create');
-$routes->resource('view');
+$routes->group('', ['filter' => 'authMiddleware'], function($routes) {
+    $routes->resource('dashboard');
+});
+$routes->group('', ['filter' => 'authMiddleware'], function($routes) {
+    $routes->resource('create');
+});
+$routes->group('', ['filter' => 'authMiddleware'], function($routes) {
+    $routes->resource('view');
+});
 
 // login dan logout
 $routes->resource('login');

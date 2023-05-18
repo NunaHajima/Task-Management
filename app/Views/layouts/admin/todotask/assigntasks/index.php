@@ -1,10 +1,10 @@
 <?= $this->extend('layouts/admin/dashboard/base') ?>
 <?= $this->section('content') ?>
-<div class="container mt-5">
+<div class="container mt-3">
     <div class="row mb-4">
         <div class="col-12">
 
-            <h5 class="mb-4">Assign Task</h5>
+            <h5 class="mb-4"><b>Assign Task</b></h5>
 
         <form action="/assigntasks" method="post" enctype="multipart/form-data">
 
@@ -17,14 +17,15 @@
             <div class="form-group">
                 <label for="example-product-name">Assign To Employee</label>
                 </br>
-                <select name="assignedto" id="assignedto" >
+                <select class="btn btn-sekunder dropdown-toggle col-12" role="button" data-toggle="dropdown" 
+                aria-haspopup="true" aria-expanded="true" name="assignedto" id="assignedto" >
                     <?php foreach ($dropdown as $row) { ?>
                         <option value="<?= $row['employeename'] ?>" ><?= $row['employeename'] ?></option>
                     <?php } ?>
                 </select>
             </div>
 
-            <div class="form-group">
+            <div class="form-group"> 
                 <label for="example-product-name">Date</label>
                 <input type="date" class="form-control" id="date" aria-describedby="emailHelp" 
                     placeholder="Choose Your Employee" required name="date">

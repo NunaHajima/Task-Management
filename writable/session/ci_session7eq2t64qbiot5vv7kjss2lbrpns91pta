@@ -1,0 +1,10 @@
+__ci_last_regenerate|i:1684417358;_ci_previous_url|s:37:"http://localhost:8080/index.php/login";id_employee|s:1:"2";employeename|s:5:"Shafa";errors|s:278:"<!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>Email harus diisi!</li>
+					<li>Anda harus mengisi kata sandi!</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+";__ci_vars|a:3:{s:6:"errors";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:2:{s:12:"emailaddress";s:15:"shafa@gmail.com";s:16:"passwordemployee";s:0:"";}}_ci_validation_errors|a:2:{s:5:"email";s:18:"Email harus diisi!";s:8:"password";s:30:"Anda harus mengisi kata sandi!";}

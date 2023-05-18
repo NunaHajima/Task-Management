@@ -18,10 +18,11 @@ class ViewAllEmployee extends ResourceController
      */
     public function index()
     {
-        $user = $this->userModel->findAll();
+        $user = $this->userModel->paginate(6,'user');
 
         $users = [
-            "user" => $user
+            "user" => $user,
+            "pager" => $this->userModel->pager
         ];
         echo view ('layouts/admin/employeesection/viewallemployee/index',$users);
     }

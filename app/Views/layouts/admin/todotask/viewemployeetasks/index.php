@@ -1,10 +1,10 @@
 <?= $this->extend('layouts/admin/dashboard/base') ?>
 <?= $this->section('content') ?>
-<div class="container mt-5">
+<div class="container mt-3">
 <div class="row mb-4">
         <div class="col-12">
 
-            <h5 class="mb-4">My Employee's Task List</h5>
+            <h5 class="mb-4"><b>My Employee's Task List</b></h5>
 
             <table class="table table-hover ">
                 <thead>
@@ -44,6 +44,9 @@
                 <?php endforeach ?>
                 </tbody>
             </table>
+        </div>
+        <div class="col-12">
+            <?= $pager->links('assign', 'custom_pagination') ?>
         </div>
     </div>
 </div>

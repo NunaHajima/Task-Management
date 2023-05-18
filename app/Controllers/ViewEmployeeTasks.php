@@ -18,10 +18,11 @@ class ViewEmployeeTasks extends ResourceController
 
     public function index()
     {
-        $assign = $this->assign->findAll();
+        $assign = $this->assign->paginate(6,'assign');
 
         $assigned = [
-            "assign" => $assign
+            "assign" => $assign,
+            "pager" => $this->assign->pager
         ];
         echo view ("layouts/admin/todotask/viewemployeetasks/index",$assigned);
     }

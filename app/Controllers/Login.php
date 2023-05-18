@@ -71,7 +71,16 @@ class Login extends ResourceController
         $this->session->set('employeename', $user['employeename']);
         $this->session->set('loggedIn', true);
 
-        return redirect()->to('/product');
+        if($email == 'admindisini@gmail.com' && $password =='123345asdfghjkl')
+        {
+            return redirect()->to('/product');
+            
+        }
+        else
+        {
+            return redirect()->to('/dashboard');
+        }
+
     }
 
     /**

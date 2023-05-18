@@ -9,11 +9,11 @@ class UserSeeder extends Seeder
     public function run()
     {
         $data = [
-            'employeename' => 'Wisnu Murti',
-            'employeerole'    => 'HRD',
-            'emailaddress'    => 'wisnumurti@gmail.com',
-            'passwordtampil'    => 'abas',
-            'passwordemployee'    => md5("123345567asdfghjkL"),
+            'employeename' => 'Administrator',
+            'employeerole'    => 'Admin',
+            'emailaddress'    => 'admindisini@gmail.com',
+            'passwordtampil'    => '123345asdfghjkl',
+            'passwordemployee'    => md5("123345asdfghjkl"),
         ];
         // Simple Queries
         $this->db->table('userlogin')->insert($data);

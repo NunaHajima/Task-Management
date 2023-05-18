@@ -64,7 +64,7 @@ class CreateToDoTasks extends ResourceController
         ];
 
         $this->todo->insert($todos);
-        return redirect()->to('/createtodotasks');
+        return redirect()->to('/viewmytodo');
     }
 
     /**

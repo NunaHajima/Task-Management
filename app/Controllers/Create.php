@@ -61,7 +61,7 @@ class Create extends ResourceController
         ];
 
         $this->users->insert($data);
-        return redirect()->to('/dashboard');
+        return redirect()->to('/view');
     }
 
     /**

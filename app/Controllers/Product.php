@@ -3,13 +3,18 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
-use App\Models\UserModel; 
+//use App\Models\UserModel; 
+use App\Models\Todo; 
 
 class Product extends ResourceController
 {
+    
     public function __construct() {
-        $this->UserModel = new UserModel();
+        $this -> request = service("request");
+        //$this->usermodel = new UserModel();
+        $this->todo = new Todo();
     }
+
     /**
      * Return an array of resource objects, themselves in array format
      *
@@ -17,13 +22,19 @@ class Product extends ResourceController
      */
     public function index()
     {
-        $user = $this->UserModel->findAll();
+        // $dataemployee = $this ->usermodel->get()->resultID->num_rows;
+        // $data =[
+        //     'title' => 'Users',
+        //     'dataemployee' => $dataemployee
+        // ];
 
-        $users = [
-            "user" => $user
+        $datatodo = $this ->todo->get()->resultID->num_rows;
+        $data2 =[
+            'title' => 'todos',
+            'datatodo' => $datatodo
         ];
-
-        echo view('layouts/admin/dashboard/dashboard/index', $users);
+        return view ('layouts/admin/dashboard/dashboard/index',$data2);
+        
     }
 
     /**
@@ -43,7 +54,7 @@ class Product extends ResourceController
      */
     public function new()
     {
-        echo view('layouts/admin/dashboard/product/new');
+        //
     }
 
     /**
@@ -53,16 +64,7 @@ class Product extends ResourceController
      */
     public function create()
     {
-        $users = [
-            "id" => uniqid(),
-            "username" => $this->request->getPost('username'),
-            "userrole" => $this->request->getPost('userrole'),
-            "emailaddress" => $this->request->getPost('emailaddress'),
-            "password" => $this->request->getPost('password'),
-        ];
-
-        $this->UserModel->insert($users);
-        return redirect()->to('/product');
+        //
     }
 
     /**

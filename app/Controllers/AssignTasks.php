@@ -61,7 +61,7 @@ class AssignTasks extends ResourceController
         ];
 
         $this->assign->insert($assigned);
-        return redirect()->to('/product');
+        return redirect()->to('/viewemployeetasks');
     }
 
     /**
@@ -69,9 +69,15 @@ class AssignTasks extends ResourceController
      *
      * @return mixed
      */
-    public function edit($id = null)
+    public function edit($id_assign = null)
     {
-        //
+        $assign = $this->assign->find($id_assign);
+        
+        if (!$assign) {
+            throw new \Exception("Data not found!");   
+        }
+        
+        echo view ("layouts/admin/todotask/viewemployeetasks/edit", ["item" => $assign]);
     }
 
     /**
@@ -79,18 +85,27 @@ class AssignTasks extends ResourceController
      *
      * @return mixed
      */
-    public function update($id = null)
+    public function update($id_assign= null)
     {
-        //
+        $assigned = [
+            "taskname" => $this->request->getPost('taskname'),
+            "assignedto" => $this->request->getPost('assignedto'),
+            "comment" => $this->request->getPost('comment'),
+        ];
+
+        $this->assign->update($id_assign, $assigned);
+        return redirect()->to('/viewemployeetasks');
     }
+
 
     /**
      * Delete the designated resource object from the model
      *
      * @return mixed
      */
-    public function delete($id = null)
+    public function delete($id_assign = null)
     {
-        //
+        $this->assign->delete($id_assign);
+        return redirect()->to('/viewemployeetasks');
     }
 }

@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\Users; 
 
 use CodeIgniter\RESTful\ResourceController;
 
@@ -12,9 +13,19 @@ class Dashboard extends ResourceController
      *
      * @return mixed
      */
+    public function __construct() {
+        $this -> request = service("request");
+        $this->users = new users();
+    }
+
     public function index()
     {
-        echo view('layouts/users/dashboardU/dashboardU/index');
+        $datausers = $this ->users->get()->resultID->num_rows;
+        $data =[
+            'title' => 'users',
+            'datausers' => $datausers
+        ];
+        echo view('layouts/users/dashboardU/dashboardU/index',$data);
     }
 
     /**

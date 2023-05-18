@@ -17,8 +17,7 @@
             <div class="form-group">
                 <label for="example-product-name">Assign To Employee</label>
                 </br>
-                <select class="btn btn-sekunder dropdown-toggle col-12" role="button" data-toggle="dropdown" 
-                aria-haspopup="true" aria-expanded="true" name="assignedto" id="assignedto" >
+                <select class="form-control"name="assignedto" id="assignedto" >
                     <?php foreach ($dropdown as $row) { ?>
                         <option value="<?= $row['employeename'] ?>" ><?= $row['employeename'] ?></option>
                     <?php } ?>

@@ -22,7 +22,7 @@
                 <div class="form-group">
                     <label for="example-product-name">Date</label>
                     <input type="date" class="form-control" id="date" aria-describedby="emailHelp" 
-                        placeholder="Deadline" value="<?= $item['date'] ?>" name="date">
+                        placeholder="Deadline" value="<?= $item['date'] ?>" disabled="disabled" name="date">
                 </div>
 
                 <div class="form-group">

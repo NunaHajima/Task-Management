@@ -18,10 +18,11 @@ class View extends ResourceController
 
     public function index()
     {
-        $users = $this->users->findAll();
+        $users = $this->users->paginate(6,'users');
 
         $data = [
-            "users" => $users
+            "users" => $users,
+            "pager" => $this->users->pager
         ];
         echo view ('layouts/users/view/index',$data);
     }

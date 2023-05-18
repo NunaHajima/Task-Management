@@ -4,19 +4,19 @@ namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
 use App\Models\Assign; 
-use App\Models\EmployeeModel; 
+use App\Models\UserModel; 
 
 class AssignTasks extends ResourceController
 {
     public function __construct() {
         $this->assign = new Assign();
-        $this->employeeModel = new EmployeeModel();
+        $this->userModel = new UserModel();
     }
 
     public function index()
     {
         $assign = $this->assign->findAll();
-        $employee = $this->employeeModel->findAll();
+        $employee = $this->userModel->findAll();
 
         $assigned = [
             "assign" => $assign,

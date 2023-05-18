@@ -33,7 +33,9 @@ $routes->get('/', 'Home::index');
 $routes->get('/Ngetesaja', 'Ngetesaja::index');
 
 //admin
-$routes->resource('product'); 
+$routes->group('', ['filter' => 'authMiddleware'], function($routes) {
+    $routes->resource('product');
+});
 $routes->resource('addemployee');
 $routes->resource('viewallemployee'); 
 $routes->resource('createtodotasks'); 
@@ -47,7 +49,9 @@ $routes->resource('dashboard');
 $routes->resource('create');
 $routes->resource('view');
 
-// update employee
+// login dan logout
+$routes->resource('login');
+$routes->resource('logout');
 
 /*
  * --------------------------------------------------------------------

@@ -3,12 +3,12 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
-use App\Models\EmployeeModel; 
+use App\Models\UserModel; 
 
 class Product extends ResourceController
 {
     public function __construct() {
-        $this->employeeModel = new EmployeeModel();
+        $this->UserModel = new UserModel();
     }
     /**
      * Return an array of resource objects, themselves in array format
@@ -17,13 +17,13 @@ class Product extends ResourceController
      */
     public function index()
     {
-        $employee = $this->employeeModel->findAll();
+        $user = $this->UserModel->findAll();
 
-        $employees = [
-            "employee" => $employee
+        $users = [
+            "user" => $user
         ];
 
-        echo view('layouts/admin/dashboard/dashboard/index', $employees);
+        echo view('layouts/admin/dashboard/dashboard/index', $users);
     }
 
     /**
@@ -53,15 +53,15 @@ class Product extends ResourceController
      */
     public function create()
     {
-        $employees = [
+        $users = [
             "id" => uniqid(),
-            "employeename" => $this->request->getPost('employeename'),
-            "employeerole" => $this->request->getPost('employeerole'),
+            "username" => $this->request->getPost('username'),
+            "userrole" => $this->request->getPost('userrole'),
             "emailaddress" => $this->request->getPost('emailaddress'),
             "password" => $this->request->getPost('password'),
         ];
 
-        $this->employeeModel->insert($employees);
+        $this->UserModel->insert($users);
         return redirect()->to('/product');
     }
 

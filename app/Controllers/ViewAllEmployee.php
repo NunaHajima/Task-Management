@@ -3,12 +3,12 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
-use App\Models\EmployeeModel; 
+use App\Models\UserModel; 
 
 class ViewAllEmployee extends ResourceController
 {
     public function __construct() {
-        $this->employeeModel = new EmployeeModel();
+        $this->userModel = new UserModel();
     }
 
     /**
@@ -18,12 +18,12 @@ class ViewAllEmployee extends ResourceController
      */
     public function index()
     {
-        $employee = $this->employeeModel->findAll();
+        $user = $this->userModel->findAll();
 
-        $employees = [
-            "employee" => $employee
+        $users = [
+            "user" => $user
         ];
-        echo view ('layouts/admin/employeesection/viewallemployee/index',$employees);
+        echo view ('layouts/admin/employeesection/viewallemployee/index',$users);
     }
 
     /**

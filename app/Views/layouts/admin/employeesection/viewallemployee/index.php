@@ -19,13 +19,13 @@
                 </thead>
                 <tbody>
                 <?php $no = 0; ?>
-                <?php foreach ($employee as $item): ?>
+                <?php foreach ($user as $item): ?>
                     <tr>
                         <td><?= $no += 1; ?></td>
                         <td><?= $item['employeename'] ?></td>
                         <td><?= $item['employeerole'] ?></td>
                         <td><?= $item['emailaddress'] ?></td>
-                        <td><?= $item['password'] ?></td>
+                        <td><?= $item['passwordtampil'] ?></td>
                         <td>
                             <div class="btn-group " role="group " aria-label="Basic example ">
                                     <form action="/addemployee/<?= $item['id_employee'] ?>"  method="post" onsubmit="return confirm(`Are you sure?`)">

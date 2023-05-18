@@ -3,12 +3,13 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
-use App\Models\EmployeeModel; 
+use App\Models\UserModel; 
 
 class AddEmployee extends ResourceController
 {
+    //add employee
     public function __construct() {
-        $this->employeeModel = new EmployeeModel();
+        $this->userModel = new UserModel();
     }
     /**
      * Return an array of resource objects, themselves in array format
@@ -18,12 +19,12 @@ class AddEmployee extends ResourceController
     
     public function index()
     {
-        $employee = $this->employeeModel->findAll();
+        $user = $this->userModel->findAll();
 
-        $employees = [
-            "employee" => $employee
+        $users = [
+            "user" => $user
         ];
-        echo view ('layouts/admin/employeesection/addemployee/index',$employees);
+        echo view ('layouts/admin/employeesection/addemployee/index',$users);
     }
 
     /**
@@ -54,16 +55,17 @@ class AddEmployee extends ResourceController
     public function create()
     {
 
-        $employees = [
+        $users = [
             "id" => uniqid(),
             "employeename" => $this->request->getPost('employeename'),
             "employeerole" => $this->request->getPost('employeerole'),
             "emailaddress" => $this->request->getPost('emailaddress'),
-            "password" => $this->request->getPost('password'),
+            "passwordtampil" => $this->request->getPost('passwordtampil'),
+            "passwordemployee" => md5($this->request->getPost('passwordemployee')),
         ];
 
-        $this->employeeModel->insert($employees);
-        return redirect()->to('/product');
+        $this->userModel->insert($users);
+        return redirect()->to('/viewallemployee');
     }
 
     /**
@@ -73,13 +75,13 @@ class AddEmployee extends ResourceController
      */
     public function edit($id_employee = null)
     {
-        $employee = $this->employeeModel->find($id_employee);
+        $user = $this->userModel->find($id_employee);
         
-        if (!$employee) {
+        if (!$user) {
             throw new \Exception("Data not found!");   
         }
         
-        echo view ('layouts/admin/employeesection/viewallemployee/edit', ["item" => $employee]);
+        echo view ('layouts/admin/employeesection/viewallemployee/edit', ["item" => $user]);
     }
 
     /**
@@ -89,12 +91,12 @@ class AddEmployee extends ResourceController
      */
     public function update($id_employee = null)
     {
-        $employees = [
+        $users = [
             "employeename" => $this->request->getPost('employeename'),
             "employeerole" => $this->request->getPost('employeerole'),
         ];
 
-        $this->employeeModel->update($id_employee, $employees);
+        $this->employeeModel->update($id_employee, $users);
         return redirect()->to('/viewallemployee');
     }
 
@@ -105,7 +107,8 @@ class AddEmployee extends ResourceController
      */
     public function delete($id_employee = null)
     {
-        $this->employeeModel->delete($id_employee);
+        $this->userModel->delete($id_employee);
         return redirect()->to('/viewallemployee');
     }
+
 }

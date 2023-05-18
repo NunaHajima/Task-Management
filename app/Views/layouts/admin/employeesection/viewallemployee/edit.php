@@ -29,7 +29,7 @@
                 <div class="form-group">
                     <label for="example-product-name">Password</label>
                     <input type="text" class="form-control" id="password" aria-describedby="emailHelp" 
-                        placeholder="Enter Password" value="<?= $item['password'] ?>" disabled="disabled" name="password">
+                        placeholder="Enter Password" value="<?= $item['passwordtampil'] ?>" disabled="disabled" name="password">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>

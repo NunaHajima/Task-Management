@@ -69,9 +69,15 @@ class Create extends ResourceController
      *
      * @return mixed
      */
-    public function edit($id = null)
+    public function edit($id_users = null)
     {
-        //
+        $users = $this->users->find($id_users);
+        
+        if (!$users) {
+            throw new \Exception("Data not found!");   
+        }
+        
+        echo view ('layouts/users/view/edit', ["item" => $users]);
     }
 
     /**
@@ -79,9 +85,17 @@ class Create extends ResourceController
      *
      * @return mixed
      */
-    public function update($id = null)
+    public function update($id_users = null)
     {
-        //
+        $data = [
+            "date" => $this->request->getPost('date'),
+            "taskname" => $this->request->getPost('taskname'),
+            "assignedfrom" => $this->request->getPost('assignedfrom'),
+            "comments" => $this->request->getPost('comments'),
+        ];
+
+        $this->users->update($id_users, $data);
+        return redirect()->to('/view');
     }
 
     /**
@@ -89,8 +103,9 @@ class Create extends ResourceController
      *
      * @return mixed
      */
-    public function delete($id = null)
+    public function delete($id_users = null)
     {
-        //
+        $this->users->delete($id_users);
+        return redirect()->to('/view');
     }
 }

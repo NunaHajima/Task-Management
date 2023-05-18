@@ -5,7 +5,7 @@
         <div class="col-12">
             <h5 class="mb-4"><b>Add Employee</b></h5>
 
-            <form action="/product" method="post" enctype="multipart/form-data">
+            <form action="/addemployee" method="post" enctype="multipart/form-data">
 
                 <div class="form-group">
                     <label for="example-product-name">Employee Name</label>
@@ -26,9 +26,15 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="example-product-name">Password</label>
-                    <input type="text" class="form-control" id="password" aria-describedby="emailHelp" 
-                        placeholder="Enter Password" required name="password">
+                    <label for="example-product-name">Password Tampil</label>
+                    <input type="text" class="form-control" id="passwordtampil" aria-describedby="emailHelp" 
+                        placeholder="Enter Password" required name="passwordtampil">
+                </div>
+
+                <div class="form-group">
+                    <label for="example-product-name">Password Employee</label>
+                    <input type="text" class="form-control" id="passwordemployee" aria-describedby="emailHelp" 
+                        placeholder="Enter Password" required name="passwordemployee">
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>

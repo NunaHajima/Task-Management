@@ -15,7 +15,7 @@
                         placeholder="Give Your Todo Name" required name="taskname">
                 </div>
                 <div class="form-group">
-                    <label for="example-product-name">Assigned For</label>
+                    <label for="example-product-name">Assigned From</label>
                     <input type="text" class="form-control" id="assignedfrom" aria-describedby="emailHelp" 
                         placeholder="Assigned From" required name="assignedfrom">
                 </div>

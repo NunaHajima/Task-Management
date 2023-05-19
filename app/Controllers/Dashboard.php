@@ -19,7 +19,6 @@ class Dashboard extends ResourceController
         $this->users = new users();
     }
 
-    
 
     public function index()
     {

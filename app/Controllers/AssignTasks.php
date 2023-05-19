@@ -58,6 +58,7 @@ class AssignTasks extends ResourceController
             "assignedto" => $this->request->getPost('assignedto'),
             "date" => $this->request->getPost('date'),
             "comment" => $this->request->getPost('comment'),
+            "status" => $this->request->getPost('status'),
         ];
 
         $this->assign->insert($assigned);
@@ -91,6 +92,7 @@ class AssignTasks extends ResourceController
             "taskname" => $this->request->getPost('taskname'),
             "assignedto" => $this->request->getPost('assignedto'),
             "comment" => $this->request->getPost('comment'),
+            "status" => $this->request->getPost('status'),
         ];
 
         $this->assign->update($id_assign, $assigned);

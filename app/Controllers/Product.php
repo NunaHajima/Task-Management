@@ -3,16 +3,15 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
-//use App\Models\UserModel; 
-use App\Models\Todo; 
+use App\Models\UserModel; 
+
 
 class Product extends ResourceController
 {
     
     public function __construct() {
         $this -> request = service("request");
-        //$this->usermodel = new UserModel();
-        $this->todo = new Todo();
+        $this->usermodel = new UserModel();
     }
 
     /**
@@ -22,19 +21,15 @@ class Product extends ResourceController
      */
     public function index()
     {
-        // $dataemployee = $this ->usermodel->get()->resultID->num_rows;
-        // $data =[
-        //     'title' => 'Users',
-        //     'dataemployee' => $dataemployee
-        // ];
-
-        $datatodo = $this ->todo->get()->resultID->num_rows;
-        $data2 =[
-            'title' => 'todos',
-            'datatodo' => $datatodo
+        $dataemployee = $this ->usermodel->get()->resultID->num_rows;
+         $data =[
+            'title' => 'Users',
+            'dataemployee' => $dataemployee,
         ];
-        return view ('layouts/admin/dashboard/dashboard/index',$data2);
-        
+
+
+        return view ('layouts/admin/dashboard/dashboard/index',$data);
+    
     }
 
     /**

@@ -27,10 +27,7 @@
                         <td><?= $item['assignedto'] ?></td>
                         <td><?= $item['date'] ?></td>
                         <td><?= $item['comment'] ?></td>
-                        <td>
-                           //
-                            
-                        </td>
+                        <td><?= $item['status'] ?></td>
                         <td>
                             <div class="btn-group " role="group " aria-label="Basic example ">
                                     <form action="/assigntasks/<?= $item['id_assign'] ?>"  method="post" onsubmit="return confirm(`Are you sure?`)">

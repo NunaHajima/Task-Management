@@ -96,7 +96,7 @@ class AddEmployee extends ResourceController
             "employeerole" => $this->request->getPost('employeerole'),
         ];
 
-        $this->employeeModel->update($id_employee, $users);
+        $this->userModel->update($id_employee, $users);
         return redirect()->to('/viewallemployee');
     }
 

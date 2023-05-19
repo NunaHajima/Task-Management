@@ -13,7 +13,7 @@ class Assign extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['taskname', 'assignedto', 'date', 'comment'];
+    protected $allowedFields    = ['taskname', 'assignedto', 'date', 'comment','status'];
 
     // Dates
     protected $useTimestamps = false;

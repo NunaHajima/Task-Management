@@ -58,6 +58,7 @@ class Create extends ResourceController
             "taskname" => $this->request->getPost('taskname'),
             "assignedfrom" => $this->request->getPost('assignedfrom'),
             "comments" => $this->request->getPost('comments'),
+            "status" => $this->request->getPost('status'),
         ];
 
         $this->users->insert($data);
@@ -91,7 +92,9 @@ class Create extends ResourceController
             "date" => $this->request->getPost('date'),
             "taskname" => $this->request->getPost('taskname'),
             "assignedfrom" => $this->request->getPost('assignedfrom'),
+            "date" => $this->request->getPost('date'),
             "comments" => $this->request->getPost('comments'),
+            "status" => $this->request->getPost('status'),
         ];
 
         $this->users->update($id_users, $data);

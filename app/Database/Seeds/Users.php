@@ -13,9 +13,11 @@ class Users extends Seeder
             'assignedfrom'    => 'Kepala Bagian',
             'date'    => '2021-07-01',
             'comments'    => 'Pembelian tanggal 1 Juni',
+            'status'    => 'Pending',
         ];
 
         // Simple Queries
         $this->db->table('users')->insert($data);
     }
 }
+

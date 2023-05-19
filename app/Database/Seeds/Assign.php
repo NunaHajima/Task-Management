@@ -13,6 +13,7 @@ class Assign extends Seeder
             'assignedto' => 'Wisnu Murti',
             'date'    => '2023-07-01',
             'comment'    => 'CRUD basic',
+            'status'    => 'pending',
         ];
 
         // Simple Queries

@@ -5688,3 +5688,224 @@ WARNING - 2023-05-18 17:50:52 --> [DEPRECATED] Creation of dynamic property App\
  3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:20:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$userModel is deprecated in APPPATH\Controllers\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:20:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$userModel is deprecated in APPPATH\Controllers\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 23:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:21:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Product::$todo is deprecated in APPPATH\Controllers\Product.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:21:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Product::$todo is deprecated in APPPATH\Controllers\Product.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:23:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Product::$usermodel is deprecated in APPPATH\Controllers\Product.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:23:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\ViewAllEmployee::$userModel is deprecated in APPPATH\Controllers\ViewAllEmployee.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\ViewAllEmployee->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:23:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\AddEmployee::$userModel is deprecated in APPPATH\Controllers\AddEmployee.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AddEmployee->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:23:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\AddEmployee::$userModel is deprecated in APPPATH\Controllers\AddEmployee.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AddEmployee->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:23:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\ViewAllEmployee::$userModel is deprecated in APPPATH\Controllers\ViewAllEmployee.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\ViewAllEmployee->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:23:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\ViewAllEmployee::$userModel is deprecated in APPPATH\Controllers\ViewAllEmployee.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\ViewAllEmployee->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:23:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Product::$usermodel is deprecated in APPPATH\Controllers\Product.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:30:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Product::$usermodel is deprecated in APPPATH\Controllers\Product.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+WARNING - 2023-05-18 23:30:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Product::$todo is deprecated in APPPATH\Controllers\Product.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+CRITICAL - 2023-05-18 23:30:24 --> Undefined variable $dataemployee
+in APPPATH\Views\layouts\admin\dashboard\dashboard\index.php on line 13.
+ 1 APPPATH\Views\layouts\admin\dashboard\dashboard\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataemployee', 'D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\app\\Views\\layouts\\admin\\dashboard\\dashboard\\index.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\app\\Views\\layouts\\admin\\dashboard\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/dashboard/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Product.php(36): view('layouts/admin/dashboard/dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:32:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Product::$usermodel is deprecated in APPPATH\Controllers\Product.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+WARNING - 2023-05-18 23:32:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Product::$todo is deprecated in APPPATH\Controllers\Product.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+CRITICAL - 2023-05-18 23:32:58 --> Undefined variable $dataemployee
+in APPPATH\Views\layouts\admin\dashboard\dashboard\index.php on line 13.
+ 1 APPPATH\Views\layouts\admin\dashboard\dashboard\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataemployee', 'D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\app\\Views\\layouts\\admin\\dashboard\\dashboard\\index.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\app\\Views\\layouts\\admin\\dashboard\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/dashboard/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Product.php(36): view('layouts/admin/dashboard/dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:34:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Product::$usermodel is deprecated in APPPATH\Controllers\Product.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+CRITICAL - 2023-05-18 23:34:00 --> Undefined variable $datatodo
+in APPPATH\Views\layouts\admin\dashboard\dashboard\index.php on line 26.
+ 1 APPPATH\Views\layouts\admin\dashboard\dashboard\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datatodo', 'D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\app\\Views\\layouts\\admin\\dashboard\\dashboard\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\app\\Views\\layouts\\admin\\dashboard\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/admin/dashboard/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Product.php(36): view('layouts/admin/dashboard/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:34:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Product::$usermodel is deprecated in APPPATH\Controllers\Product.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:36:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\ViewMyTodo::$todo is deprecated in APPPATH\Controllers\ViewMyTodo.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\ViewMyTodo->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:36:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\ViewMyTodo::$todo is deprecated in APPPATH\Controllers\ViewMyTodo.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\ViewMyTodo->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:39:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\ViewEmployeeTasks::$assign is deprecated in APPPATH\Controllers\ViewEmployeeTasks.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\ViewEmployeeTasks->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:40:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\AssignTasks::$assign is deprecated in APPPATH\Controllers\AssignTasks.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AssignTasks->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+WARNING - 2023-05-18 23:40:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\AssignTasks::$userModel is deprecated in APPPATH\Controllers\AssignTasks.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AssignTasks->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:40:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\AssignTasks::$assign is deprecated in APPPATH\Controllers\AssignTasks.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AssignTasks->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+WARNING - 2023-05-18 23:40:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\AssignTasks::$userModel is deprecated in APPPATH\Controllers\AssignTasks.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AssignTasks->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:40:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\AssignTasks::$assign is deprecated in APPPATH\Controllers\AssignTasks.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AssignTasks->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+WARNING - 2023-05-18 23:40:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\AssignTasks::$userModel is deprecated in APPPATH\Controllers\AssignTasks.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AssignTasks->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')
+INFO - 2023-05-18 23:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-18 23:40:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\ViewEmployeeTasks::$assign is deprecated in APPPATH\Controllers\ViewEmployeeTasks.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\ViewEmployeeTasks->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Task-Management_Prooyek\\public\\index.php')

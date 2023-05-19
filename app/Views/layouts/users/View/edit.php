@@ -17,12 +17,12 @@
                 <div class="form-group">
                     <label for="example-product-name">Assigned From</label>
                     <input type="text" class="form-control" id="assignedfrom" aria-describedby="emailHelp" 
-                        placeholder="Assigned From" value="<?= $item['assignedfrom'] ?>" disabled="disabled" name="assignedfrom">
+                        placeholder="Assigned From" value="<?= $item['assignedfrom'] ?>" name="assignedfrom">
                 </div>
                 <div class="form-group">
                     <label for="example-product-name">Date</label>
                     <input type="date" class="form-control" id="date" aria-describedby="emailHelp" 
-                        placeholder="Deadline" value="<?= $item['date'] ?>" disabled="disabled" name="date">
+                        placeholder="Deadline" value="<?= $item['date'] ?>" name="date">
                 </div>
 
                 <div class="form-group">
@@ -30,6 +30,15 @@
                     <textarea class="form-control" id="comments" rows="3"
                         placeholder="Enter Todo Comment"  name="comments"><?= $item['comments'] ?></textarea>  
                 </div>
+                <div class="form-group">
+                    <label for="example-product-name">Status</label>
+                    </br>
+                    <select class="form-control"name="status" id="status" required>
+                        <option value="On Progress">On Progress</option>
+                        <option value="Pending">Pending</option>
+                        <option value="Done">Done</option>
+                    </select>
+                 </div>
 
             <button type="submit" class="btn btn-primary">Submit</button>
             </form>

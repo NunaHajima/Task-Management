@@ -13,7 +13,7 @@ class Todo extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['taskname','assignedfrom','date','comments'];
+    protected $allowedFields    = ['taskname','assignedfrom','date','comments','status'];
 
     // Dates
     protected $useTimestamps = false;

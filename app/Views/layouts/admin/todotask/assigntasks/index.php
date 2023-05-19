@@ -34,7 +34,16 @@
                     <label for="example-product-name">Comments</label>
                     <textarea class="form-control" id="comment" rows="3"
                         placeholder="Enter Todo Comment" required name="comment"></textarea>  
-                </div>
+            </div>
+            <div class="form-group">
+                    <label for="example-product-name">Status</label>
+                    </br>
+                    <select class="form-control"name="status" id="status" required>
+                        <option value="On Progress">On Progress</option>
+                        <option value="Pending">Pending</option>
+                        <option value="Done">Done</option>
+                    </select>
+                 </div>
             
 
         <button type="submit" class="btn btn-primary">Submit</button>

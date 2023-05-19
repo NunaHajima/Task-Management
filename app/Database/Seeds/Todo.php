@@ -13,6 +13,7 @@ class Todo extends Seeder
             'assignedfrom'    => 'HRD',
             'date'    => '2021-07-01',
             'comments'    => 'Pembelian tanggal 1 Juni',
+            'status'    => 'Done',
         ];
 
         // Simple Queries

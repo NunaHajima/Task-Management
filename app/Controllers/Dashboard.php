@@ -3,6 +3,7 @@
 namespace App\Controllers;
 use App\Models\Users; 
 
+
 use CodeIgniter\RESTful\ResourceController;
 
 
@@ -18,6 +19,8 @@ class Dashboard extends ResourceController
         $this->users = new users();
     }
 
+    
+
     public function index()
     {
         $datausers = $this ->users->get()->resultID->num_rows;
@@ -28,6 +31,7 @@ class Dashboard extends ResourceController
         echo view('layouts/users/dashboardU/dashboardU/index',$data);
     }
 
+    
     /**
      * Return the properties of a resource object
      *

@@ -61,6 +61,7 @@ class CreateToDoTasks extends ResourceController
             "taskname" => $this->request->getPost('taskname'),
             "assignedfrom" => $this->request->getPost('assignedfrom'),
             "comments" => $this->request->getPost('comments'),
+            "status" => $this->request->getPost('status'),
         ];
 
         $this->todo->insert($todos);
@@ -95,6 +96,7 @@ class CreateToDoTasks extends ResourceController
             "taskname" => $this->request->getPost('taskname'),
             "assignedfrom" => $this->request->getPost('assignedfrom'),
             "comments" => $this->request->getPost('comments'),
+            "status" => $this->request->getPost('status'),
         ];
 
         $this->todo->update($id_todo, $todos);

@@ -13,7 +13,6 @@
                         <th scope="col ">Employee Name</th>
                         <th scope="col ">Role</th>
                         <th scope="col ">Email</th>
-                        <th scope="col ">Password</th>
                         <th scope="col ">Action</th>
                     </tr>
                 </thead>
@@ -25,7 +24,6 @@
                         <td><?= $item['employeename'] ?></td>
                         <td><?= $item['employeerole'] ?></td>
                         <td><?= $item['emailaddress'] ?></td>
-                        <td><?= $item['passwordtampil'] ?></td>
                         <td>
                             <div class="btn-group " role="group " aria-label="Basic example ">
                                     <form action="/addemployee/<?= $item['id_employee'] ?>"  method="post" onsubmit="return confirm(`Are you sure?`)">

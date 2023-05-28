@@ -40,8 +40,7 @@
                     </br>
                     <select class="form-control"name="status" id="status" required>
                         <option value="On Progress">On Progress</option>
-                        <option value="Pending">Pending</option>
-                        <option value="Done">Done</option>
+                        <option value="Todo">Todo</option>
                     </select>
                  </div>
             
